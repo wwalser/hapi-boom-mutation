@@ -1,0 +1,23 @@
+{
+  "name": "hapi-boom-mutation",
+  "version": "1.0.0",
+  "description": "Testing Hapi mutation of Boom object causing null responses.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon server.js"
+  },
+  "keywords": [
+    "hapi",
+    "boom"
+  ],
+  "author": "Wesley Walser",
+  "license": "MIT",
+  "dependencies": {
+    "boom": "^4.2.0",
+    "hapi": "^15.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
